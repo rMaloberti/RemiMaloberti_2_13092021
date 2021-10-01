@@ -37,6 +37,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 5vw;
 }
 
 header a {
@@ -47,7 +48,7 @@ header a {
 #logo,
 #inscription {
   width: 33%;
-  margin: 5vw 0;
+  margin: 7.5vw 0;
   align-self: center;
   display: flex;
   align-items: center;
@@ -95,6 +96,7 @@ nav .active a {
 main {
   width: 100%;
   flex-grow: 1;
+  margin: 5vw 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +105,7 @@ main {
 /* Filtres */
 #filtres {
   width: 90%;
-  margin-top: 5vw;
+  margin-top: 2.5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
