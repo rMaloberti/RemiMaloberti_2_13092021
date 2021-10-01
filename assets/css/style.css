@@ -338,6 +338,13 @@ main {
   font-weight: 200;
 }
 
+#tous a {
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 5vw;
+  margin: 5vw;
+}
+
 /* Populaires */
 #populaires {
   width: 100%;
