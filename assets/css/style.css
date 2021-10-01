@@ -13,6 +13,10 @@ a {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Reset des marges */
 * {
   margin: 0;
@@ -72,7 +76,6 @@ nav {
 
 nav ul {
   width: 100%;
-  list-style: none;
   display: flex;
 }
 
@@ -193,7 +196,6 @@ main {
 }
 
 #filter-list ul {
-  list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -259,8 +261,82 @@ main {
 }
 
 /* Hébergements */
-main > div {
+#hebergements {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#hebergements .rating {
+  font-size: 3.5vw;
+  color: #0065fc;
+}
+
+#hebergements .rating .empty {
+  color: #f2f2f2;
+}
+
+#tous {
+  order: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw 0;
+}
+
+#tous h2 {
+  width: 90%;
+  font-size: 5.5vw;
+  margin: 5vw 0;
+}
+
+#tous ul {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+#tous li {
+  width: 100%;
+}
+
+#tous li > a {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw 0;
+  padding: 1.5vw;
+  border-radius: 5vw;
+  box-shadow: 0 1vw 2vw #cecece;
+}
+
+#tous .thumbnail {
+  width: 100%;
+  height: 60%;
+  background-color: #deebff;
+  border-radius: 4vw 4vw 0 0;
+  overflow: hidden;
+}
+
+#tous .infos {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3vw;
+}
+
+#tous h4 {
+  font-size: 4.75vw;
+}
+
+#tous p {
+  font-size: 4.25vw;
+  font-weight: 200;
 }
 
 /* Populaires */
@@ -283,7 +359,6 @@ main > div {
 
 #populaires ul {
   width: 90%;
-  list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -292,13 +367,17 @@ main > div {
 
 #populaires li {
   width: 100%;
+}
+
+#populaires li > a {
+  width: 100%;
   height: 37.5vw;
   display: flex;
   background-color: white;
   margin: 2vw 0;
   padding: 1.5vw;
   border-radius: 5vw;
-  box-shadow: 0 0 2vw #aaaaaa;
+  box-shadow: 0 1vw 2vw #cecece;
 }
 
 #populaires .thumbnail {
@@ -307,10 +386,6 @@ main > div {
   background-color: #deebff;
   border-radius: 4vw 0 0 4vw;
   overflow: hidden;
-}
-
-#populaires .thumbnail img {
-  display: none;
 }
 
 #populaires .infos {
@@ -327,16 +402,8 @@ main > div {
 
 #populaires p {
   font-size: 4.25vw;
+  font-weight: 200;
   margin: 3vw 0;
-}
-
-#populaires .rating {
-  font-size: 3.5vw;
-  color: #0065fc;
-}
-
-#populaires .rating .empty {
-  color: #f2f2f2;
 }
 
 /* Pied */
@@ -344,10 +411,6 @@ footer {
   background-color: #f2f2f2;
   width: 100%;
   font-size: 4.25vw;
-}
-
-footer ul {
-  list-style: none;
 }
 
 footer h3 {
