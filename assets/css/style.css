@@ -393,6 +393,11 @@ main {
   margin: 3vw 0;
 }
 
+/* Activités */
+#activites {
+  display: none; /* Temporaire */
+}
+
 /* Pied */
 footer {
   background-color: #f2f2f2;
