@@ -267,6 +267,46 @@ main {
   flex-direction: column;
 }
 
+#hebergements ul {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+#hebergements li {
+  width: 100%;
+}
+
+#hebergements li > a {
+  display: flex;
+  margin: 2vw 0;
+  padding: 1.5vw;
+  border-radius: 5vw;
+  box-shadow: 0 1vw 2vw #cecece;
+}
+
+#hebergements .thumbnail {
+  background-color: #deebff;
+  overflow: hidden;
+}
+
+#hebergements .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hebergements h4 {
+  font-size: 4.75vw;
+}
+
+#hebergements p {
+  font-size: 4.25vw;
+  font-weight: 200;
+}
+
 #hebergements .rating {
   font-size: 3.5vw;
   color: #0065fc;
@@ -276,6 +316,7 @@ main {
   color: #f2f2f2;
 }
 
+/* Tous */
 #tous {
   order: 1;
   width: 100%;
@@ -291,57 +332,26 @@ main {
   margin: 5vw 0;
 }
 
-#tous ul {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3vw;
-}
-
-#tous li {
-  width: 100%;
-}
-
 #tous li > a {
   height: 50vw;
-  display: flex;
   flex-direction: column;
-  margin: 2vw 0;
-  padding: 1.5vw;
-  border-radius: 5vw;
-  box-shadow: 0 1vw 2vw #cecece;
 }
 
 #tous .thumbnail {
   width: 100%;
   height: 60%;
-  background-color: #deebff;
   border-radius: 4vw 4vw 0 0;
-  overflow: hidden;
 }
 
 #tous .infos {
   height: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   padding: 3vw;
-}
-
-#tous h4 {
-  font-size: 4.75vw;
-}
-
-#tous p {
-  font-size: 4.25vw;
-  font-weight: 200;
 }
 
 #tous a {
   align-self: flex-start;
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 4.5vw;
   margin: 5vw;
 }
 
@@ -363,51 +373,23 @@ main {
   margin: 5vw 0;
 }
 
-#populaires ul {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3vw;
-}
-
-#populaires li {
-  width: 100%;
-}
-
 #populaires li > a {
   height: 37.5vw;
-  display: flex;
   background-color: white;
-  margin: 2vw 0;
-  padding: 1.5vw;
-  border-radius: 5vw;
-  box-shadow: 0 1vw 2vw #cecece;
 }
 
 #populaires .thumbnail {
   width: 45%;
   height: 100%;
-  background-color: #deebff;
   border-radius: 4vw 0 0 4vw;
-  overflow: hidden;
 }
 
 #populaires .infos {
   width: 55%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   padding: 3vw 6vw;
 }
 
-#populaires h4 {
-  font-size: 4.75vw;
-}
-
 #populaires p {
-  font-size: 4.25vw;
-  font-weight: 200;
   margin: 3vw 0;
 }
 
