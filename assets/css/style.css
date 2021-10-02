@@ -216,11 +216,11 @@ main {
 }
 
 .filter-btn {
-  width: 13vw;
+  width: 12vw;
   height: 110%;
   position: relative;
   right: 0.6vw;
-  border-radius: 50vw;
+  border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
   font-size: 4.25vw;
@@ -434,13 +434,13 @@ footer a {
 @media only screen and (min-width: 575px) {
   /* Header */
   header a {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 
   #logo,
   #inscription {
-    width: 25%;
-    margin: 6.5vw 0;
+    width: 30%;
+    margin: 6vw 0;
   }
 
   #logo img {
@@ -501,11 +501,12 @@ footer a {
   }
 
   #filter-list li {
-    height: 12vw;
+    height: 11vw;
     margin: 1.5vw 1.5vw 1.5vw 0;
   }
 
   #filter-btn {
+    width: 11vw;
     font-size: 4vw;
   }
 
@@ -525,8 +526,101 @@ footer a {
     font-size: 3vw;
   }
 
-  #search-results {
+  #search-results p {
     font-size: 3.5vw;
+  }
+
+  /* Hébergements */
+  #hebergements ul {
+    margin-bottom: 2vw;
+  }
+
+  #hebergements li > a {
+    margin: 1.5vw 0;
+    padding: 1vw;
+    box-shadow: 0 0.75vw 1.5vw #cecece;
+  }
+
+  #hebergements h4 {
+    font-size: 4vw;
+  }
+
+  #hebergements p {
+    font-size: 3.5vw;
+  }
+
+  #hebergements .rating {
+    font-size: 3vw;
+  }
+
+  /* Tous */
+  #tous {
+    padding: 4.25vw 0;
+  }
+
+  #tous h2 {
+    font-size: 4.75vw;
+    margin: 4.25vw 0;
+  }
+
+  #tous li > a {
+    height: 42.5vw;
+  }
+
+  #tous .infos {
+    padding: 2.5vw;
+  }
+
+  #tous a {
+    font-size: 3.75vw;
+    margin: 4.25vw;
+  }
+
+  /* Populaires */
+  #populaires {
+    padding: 4.25vw 0;
+  }
+
+  #populaires h2 {
+    font-size: 4.75vw;
+    margin: 4.25vw;
+  }
+
+  #populaires li > a {
+    height: 30vw;
+  }
+
+  #populaires .infos {
+    padding: 2.5vw 5vw;
+  }
+
+  #populaires p {
+    margin: 2.5vw 0;
+  }
+
+  /* Pied */
+  footer {
+    font-size: 3.5vw;
+  }
+
+  footer h3 {
+    margin: 3vw 0;
+  }
+
+  footer > ul {
+    margin-left: 6vw;
+  }
+
+  footer > ul li {
+    margin: 8.75vw 0;
+  }
+
+  footer .ul-in {
+    margin: 4.25vw 0;
+  }
+
+  footer .ul-in li {
+    margin: 3vw 0;
   }
 }
 
