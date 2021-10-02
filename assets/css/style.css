@@ -432,6 +432,102 @@ footer a {
 
 /* Breakpoint S */
 @media only screen and (min-width: 575px) {
+  /* Header */
+  header a {
+    font-size: 3.5vw;
+  }
+
+  #logo,
+  #inscription {
+    width: 25%;
+    margin: 6.5vw 0;
+  }
+
+  #logo img {
+    width: 18.75vw;
+  }
+
+  /* Navigation */
+  nav li {
+    padding-bottom: 1.5vw;
+    border-bottom: 0.5vw solid #f2f2f2;
+  }
+
+  nav .active {
+    border-bottom: 0.5vw solid #0065fc;
+  }
+
+  /* Corps */
+  main {
+    margin: 4.5vw 0;
+  }
+
+  /* Filtres */
+  #filtres {
+    margin-bottom: 4.5vw;
+  }
+
+  /* Textes */
+  #filtres h1 {
+    font-size: 5vw;
+    margin: 1.5vw 0;
+  }
+
+  #filtres > p {
+    font-size: 3.5vw;
+    margin: 0.75vw 0;
+  }
+
+  /* Barre de recherche */
+  #search-bar {
+    height: 11vw;
+    margin: 6vw 0;
+  }
+
+  /* Bouton localiser */
+  #localiser-btn,
+  #search-btn {
+    font-size: 4vw;
+  }
+
+  #textfield input {
+    font-size: 4.25vw;
+  }
+
+  /* Liste des filtres */
+  #filter-list h3 {
+    font-size: 4vw;
+    margin: 1.5vw 0;
+  }
+
+  #filter-list li {
+    height: 12vw;
+    margin: 1.5vw 1.5vw 1.5vw 0;
+  }
+
+  #filter-btn {
+    font-size: 4vw;
+  }
+
+  #filter-list p {
+    font-size: 3.5vw;
+    margin: 0 3.8vw;
+  }
+
+  /* Résultats */
+  #search-results {
+    margin: 4vw 0;
+  }
+
+  #info-icon {
+    width: 5vw;
+    height: 5vw;
+    font-size: 3vw;
+  }
+
+  #search-results {
+    font-size: 3.5vw;
+  }
 }
 
 /* Breakpoint M */
