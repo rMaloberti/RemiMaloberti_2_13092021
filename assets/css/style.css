@@ -216,8 +216,8 @@ main {
 }
 
 .filter-btn {
-  width: 12vw;
-  height: 100%;
+  width: 13vw;
+  height: 13vw;
   position: relative;
   right: 0.6vw;
   border-radius: 50%;
@@ -522,7 +522,8 @@ footer a {
   }
 
   .filter-btn {
-    width: 11vw;
+    width: 12vw;
+    height: 12vw;
     font-size: 4vw;
   }
 
@@ -725,12 +726,13 @@ footer a {
   }
 
   #filter-list li {
-    height: 9vw;
+    height: 8vw;
     margin: 1.5vw 1.5vw 1.5vw 0;
   }
 
   .filter-btn {
     width: 9vw;
+    height: 9vw;
     font-size: 3vw;
   }
 
