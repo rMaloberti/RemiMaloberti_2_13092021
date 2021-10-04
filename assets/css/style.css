@@ -133,7 +133,7 @@ main {
   width: 100%;
   height: 12vw;
   border: 0.3vw solid #f2f2f2;
-  border-radius: 4.75vw;
+  border-radius: 3.75vw;
   margin: 7vw 0;
 }
 
@@ -217,7 +217,7 @@ main {
 
 .filter-btn {
   width: 12vw;
-  height: 110%;
+  height: 100%;
   position: relative;
   right: 0.6vw;
   border-radius: 50%;
@@ -239,7 +239,9 @@ main {
 #search-results {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 5vw 0;
+  width: 100%;
 }
 
 #info-icon {
@@ -482,16 +484,30 @@ footer a {
   #search-bar {
     height: 11vw;
     margin: 6vw 0;
+    border-radius: 3vw;
   }
 
   /* Bouton localiser */
   #localiser-btn,
   #search-btn {
     font-size: 4vw;
+    width: 12vw;
+  }
+
+  #localiser-btn {
+    border-radius: 3vw 0 0 3vw;
+  }
+
+  #textfield {
+    width: 76%;
   }
 
   #textfield input {
     font-size: 4.25vw;
+  }
+
+  #search-btn {
+    border-radius: 3vw;
   }
 
   /* Liste des filtres */
@@ -505,7 +521,7 @@ footer a {
     margin: 1.5vw 1.5vw 1.5vw 0;
   }
 
-  #filter-btn {
+  .filter-btn {
     width: 11vw;
     font-size: 4vw;
   }
@@ -626,6 +642,210 @@ footer a {
 
 /* Breakpoint M */
 @media only screen and (min-width: 767px) {
+  /* Header */
+  header a {
+    font-size: 2.75vw;
+  }
+
+  #logo,
+  #inscription {
+    width: 27.5%;
+    margin: 4vw 0;
+  }
+
+  #logo img {
+    width: 15vw;
+  }
+
+  /* Navigation */
+  nav li {
+    padding-bottom: 1vw;
+    border-bottom: 0.33vw solid #f2f2f2;
+  }
+
+  nav .active {
+    border-bottom: 0.33vw solid #0065fc;
+  }
+
+  /* Corps */
+  main {
+    margin: 3.25vw 0;
+  }
+
+  /* Filtres */
+  #filtres {
+    margin-bottom: 3.75vw;
+  }
+
+  /* Textes */
+  #filtres h1 {
+    font-size: 4.25vw;
+    margin: 1vw 0;
+  }
+
+  #filtres > p {
+    font-size: 2.75vw;
+    margin: 0.5vw 0;
+  }
+
+  /* Barre de recherche */
+  #search-bar {
+    height: 9vw;
+    margin: 4.5vw 0;
+    border-radius: 2.5vw;
+  }
+
+  /* Bouton localiser */
+  #localiser-btn,
+  #search-btn {
+    font-size: 3.5vw;
+    width: 9vw;
+  }
+
+  #localiser-btn {
+    border-radius: 2.5vw 0 0 2.5vw;
+  }
+
+  #textfield {
+    width: 82%;
+  }
+
+  #textfield input {
+    font-size: 3.75vw;
+  }
+
+  #search-btn {
+    border-radius: 2.5vw;
+  }
+
+  /* Liste des filtres */
+  #filter-list h3 {
+    font-size: 3vw;
+    margin: 1vw 0;
+  }
+
+  #filter-list li {
+    height: 9vw;
+    margin: 1.5vw 1.5vw 1.5vw 0;
+  }
+
+  .filter-btn {
+    width: 9vw;
+    font-size: 3vw;
+  }
+
+  #filter-list p {
+    font-size: 2.75vw;
+    margin: 0 3vw;
+  }
+
+  /* Résultats */
+  #search-results {
+    margin: 3vw 0;
+  }
+
+  #info-icon {
+    width: 3.75vw;
+    height: 3.75vw;
+    font-size: 2.25vw;
+  }
+
+  #search-results p {
+    font-size: 2.75vw;
+  }
+
+  /* Hébergements */
+  #hebergements ul {
+    margin-bottom: 2vw;
+  }
+
+  #hebergements li > a {
+    margin: 1.5vw 0;
+    padding: 1vw;
+    box-shadow: 0 0.75vw 1.5vw #cecece;
+  }
+
+  #hebergements h4 {
+    font-size: 4vw;
+  }
+
+  #hebergements p {
+    font-size: 3.5vw;
+  }
+
+  #hebergements .rating {
+    font-size: 3vw;
+  }
+
+  /* Tous */
+  #tous {
+    padding: 4.25vw 0;
+  }
+
+  #tous h2 {
+    font-size: 4.75vw;
+    margin: 4.25vw 0;
+  }
+
+  #tous li > a {
+    height: 42.5vw;
+  }
+
+  #tous .infos {
+    padding: 2.5vw;
+  }
+
+  #tous a {
+    font-size: 3.75vw;
+    margin: 4.25vw;
+  }
+
+  /* Populaires */
+  #populaires {
+    padding: 4.25vw 0;
+  }
+
+  #populaires h2 {
+    font-size: 4.75vw;
+    margin: 4.25vw;
+  }
+
+  #populaires li > a {
+    height: 30vw;
+  }
+
+  #populaires .infos {
+    padding: 2.5vw 5vw;
+  }
+
+  #populaires p {
+    margin: 2.5vw 0;
+  }
+
+  /* Pied */
+  footer {
+    font-size: 3.5vw;
+  }
+
+  footer h3 {
+    margin: 3vw 0;
+  }
+
+  footer > ul {
+    margin-left: 6vw;
+  }
+
+  footer > ul li {
+    margin: 8.75vw 0;
+  }
+
+  footer .ul-in {
+    margin: 4.25vw 0;
+  }
+
+  footer .ul-in li {
+    margin: 3vw 0;
+  }
 }
 
 /* Breakpoint L */
