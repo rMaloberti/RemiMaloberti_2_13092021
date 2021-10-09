@@ -207,6 +207,12 @@ main {
   border-left: 0.6vw solid #deebff;
   border-radius: 50vw;
   margin: 2vw 2vw 2vw 0;
+  transition: all 0.3s ease-out;
+}
+
+#filter-list li:hover {
+  background-color: #deebff;
+  border: 0.6vw solid #deebff;
 }
 
 #filter-list a {
@@ -503,7 +509,7 @@ footer a {
   }
 
   #textfield input {
-    font-size: 4.25vw;
+    font-size: 4vw;
   }
 
   #search-btn {
@@ -712,7 +718,7 @@ footer a {
   }
 
   #textfield input {
-    font-size: 3.75vw;
+    font-size: 3vw;
   }
 
   #search-btn {
