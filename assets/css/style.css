@@ -269,13 +269,15 @@ main {
 }
 
 /* Hébergements */
-#hebergements {
+#hebergements,
+#activites {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#hebergements ul {
+#hebergements ul,
+#activites ul {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -283,7 +285,8 @@ main {
   margin-bottom: 3vw;
 }
 
-#hebergements li {
+#hebergements li,
+#activites li {
   width: 100%;
 }
 
@@ -295,19 +298,21 @@ main {
   box-shadow: 0 1vw 2vw #cecece;
 }
 
-#hebergements .thumbnail {
-  background-color: #deebff;
+#hebergements .thumbnail,
+#activites .thumbnail {
   overflow: hidden;
 }
 
-#hebergements .thumbnail img {
+#hebergements .thumbnail img,
+#activites .thumbnail img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-#hebergements .infos {
+#hebergements .infos,
+#activites .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -410,7 +415,40 @@ main {
 
 /* Activités */
 #activites {
-  display: none; /* Temporaire */
+  align-items: center;
+  padding: 4vw 0;
+}
+
+#activites h2 {
+  width: 90%;
+  font-size: 5.5vw;
+  margin: 5vw 0;
+}
+
+#activites li > a {
+  display: flex;
+  margin: 4vw 0;
+  border-radius: 5vw;
+  box-shadow: 0 1vw 2vw #cecece;
+  height: 50vw;
+  flex-direction: column;
+}
+
+#activites .thumbnail {
+  width: 100%;
+  height: 90%;
+  border-radius: 4vw 4vw 0 0;
+}
+
+#activites .infos {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 5vw;
+}
+
+#activites h4 {
+  font-size: 4vw;
 }
 
 /* Pied */
