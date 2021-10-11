@@ -93,7 +93,7 @@ nav .active a {
   color: #0065fc;
 }
 
-/* Corps */
+/* Main */
 main {
   width: 100%;
   flex-grow: 1;
@@ -112,7 +112,7 @@ main {
   margin-bottom: 5vw;
 }
 
-/* Textes */
+/* Text */
 #filtres h1 {
   font-weight: 600;
   font-size: 5.8vw;
@@ -938,7 +938,187 @@ footer a {
 }
 
 /* Breakpoint XL */
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 1099px) {
+  /* Header */
+  header {
+    min-height: 6.5vw;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  header a {
+    font-size: 1.1vw;
+  }
+
+  #logo,
+  #inscription {
+    margin: 0;
+  }
+
+  #logo {
+    width: 65%;
+    align-self: flex-end;
+    justify-content: flex-start;
+  }
+
+  #logo img {
+    width: 6.5vw;
+  }
+
+  #inscription {
+    width: 7.5%;
+    height: 95%;
+    align-self: flex-end;
+    order: 1;
+  }
+
+  /* Navigation */
+  nav {
+    width: 20%;
+    height: 100%;
+  }
+
+  nav ul {
+    height: 100%;
+  }
+
+  nav li {
+    height: 100%;
+    padding-bottom: 0;
+    border-bottom: none;
+    border-top: 0.25vw solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .active {
+    border-bottom: none;
+    border-top: 0.25vw solid #0065fc;
+  }
+
+  /* Main */
+  main {
+    margin: 2.5vw 0;
+  }
+
+  /* Filtres */
+  #filtres {
+    width: 92.5%;
+    margin-bottom: 1vw;
+  }
+
+  /* Text */
+  #filtres h1 {
+    width: 100%;
+    font-size: 1.5vw;
+    margin: 0.25vw 0;
+  }
+
+  #filtres > p {
+    width: 100%;
+    font-size: 1.25vw;
+    align-self: center;
+    margin: 0.25vw 0;
+  }
+
+  /* Barre de recherche */
+  #search-bar {
+    width: 30%;
+    height: 3.25vw;
+    border: 0.15vw solid #f2f2f2;
+    border-radius: 1.25vw;
+    margin: 1vw 0;
+    align-self: flex-start;
+  }
+
+  /* Bouton localiser */
+  #localiser-btn {
+    width: 17.5%;
+    border-radius: 1vw 0 0 1vw;
+    font-size: 1.25vw;
+  }
+
+  /* Champ de recherche */
+  #textfield {
+    width: 57%;
+  }
+
+  #textfield input {
+    font-size: 1.25vw;
+    padding-left: 1vw;
+  }
+
+  /* Bouton rechercher */
+  #search-btn {
+    border-radius: 0 1vw 1vw 0;
+    font-size: 1.25vw;
+  }
+
+  #search-btn .fa-search {
+    display: none;
+  }
+
+  #search-btn p {
+    display: block;
+  }
+
+  /* Liste des filtres */
+  #filter-list {
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+  }
+
+  #filter-list h3 {
+    font-size: 1.25vw;
+    margin: 0;
+  }
+
+  #filter-list ul {
+    flex-wrap: nowrap;
+    margin: 0 2.25vw;
+  }
+
+  #filter-list li {
+    height: 3vw;
+    border: 0.25vw solid #f2f2f2;
+    border-left: 0.25vw solid #deebff;
+    margin: 0 1vw;
+  }
+
+  #filter-list li:hover {
+    border: 0.25vw solid #deebff;
+  }
+
+  .filter-btn {
+    width: 3.3vw;
+    height: 3.3vw;
+    right: 0.25vw;
+    font-size: 1.25vw;
+  }
+
+  #filter-list p {
+    font-size: 1.25vw;
+    margin: 0 1vw 0 0.5vw;
+  }
+
+  /* Résultats */
+  #search-results {
+    margin: 1vw 0;
+  }
+
+  #info-icon {
+    width: 1.25vw;
+    height: 1.25vw;
+    font-size: 0.75vw;
+    border: 0.2vw solid #f2f2f2;
+  }
+
+  #search-results p {
+    font-size: 1.1vw;
+    width: 97.5%;
+  }
 }
 
 /* Breakpoint XXL */
