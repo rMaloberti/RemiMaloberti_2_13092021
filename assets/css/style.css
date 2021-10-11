@@ -292,7 +292,7 @@ main {
 
 #hebergements li > a {
   display: flex;
-  margin: 2vw 0;
+  margin: 3vw 0;
   padding: 1.5vw;
   border-radius: 5vw;
   box-shadow: 0 1vw 2vw #cecece;
@@ -427,7 +427,7 @@ main {
 
 #activites li > a {
   display: flex;
-  margin: 4vw 0;
+  margin: 3vw 0;
   border-radius: 5vw;
   box-shadow: 0 1vw 2vw #cecece;
   height: 50vw;
@@ -599,12 +599,12 @@ footer a {
   }
 
   /* Hébergements */
-  #hebergements ul {
+  #hebergements ul,
+  #activites ul {
     margin-bottom: 2vw;
   }
 
   #hebergements li > a {
-    margin: 1.5vw 0;
     padding: 1vw;
     box-shadow: 0 0.75vw 1.5vw #cecece;
   }
@@ -664,6 +664,24 @@ footer a {
 
   #populaires p {
     margin: 2.5vw 0;
+  }
+
+  /* Activites */
+  #activites {
+    padding: 3.25vw 0;
+  }
+
+  #activites h2 {
+    font-size: 4.75vw;
+    margin: 4.25vw 0;
+  }
+
+  #activites li > a {
+    height: 42.5vw;
+  }
+
+  #activites .infos {
+    padding: 4.5vw;
   }
 
   /* Pied */
@@ -808,12 +826,12 @@ footer a {
   }
 
   /* Hébergements */
-  #hebergements ul {
+  #hebergements ul,
+  #activites ul {
     margin-bottom: 1.75vw;
   }
 
   #hebergements li > a {
-    margin: 1.25vw 0;
     padding: 0.75vw;
     box-shadow: 0 0.5vw 1vw #cecece;
   }
@@ -875,6 +893,24 @@ footer a {
     margin: 2vw 0;
   }
 
+  /* Activites */
+  #activites {
+    padding: 2.5vw 0;
+  }
+
+  #activites h2 {
+    font-size: 4vw;
+    margin: 3.5vw 0;
+  }
+
+  #activites li > a {
+    height: 35vw;
+  }
+
+  #activites .infos {
+    padding: 4vw;
+  }
+
   /* Pied */
   footer {
     font-size: 3vw;
@@ -899,10 +935,6 @@ footer a {
   footer .ul-in li {
     margin: 2vw 0;
   }
-}
-
-/* Breakpoint L */
-@media only screen and (min-width: 991px) {
 }
 
 /* Breakpoint XL */
