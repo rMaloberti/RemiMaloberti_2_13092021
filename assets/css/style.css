@@ -1,6 +1,6 @@
 /* Police d'écriture */
-@import url("/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
-@import url("/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+@import url("../fonts/Raleway/Raleway-VariableFont_wght.ttf");
+@import url("../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 
 html,
 body {
