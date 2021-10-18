@@ -245,7 +245,7 @@ main {
 #search-results {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin: 5vw 0;
   width: 100%;
 }
@@ -818,6 +818,7 @@ footer a {
   /* Résultats */
   #search-results {
     margin: 3vw 0;
+    align-items: baseline;
   }
 
   #info-icon {
