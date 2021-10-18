@@ -1282,7 +1282,7 @@ footer a {
   }
 
   #grp2 > ul {
-    grid-template-rows: [start] 42.5% [row2] 47.5% [end];
+    grid-template-rows: [start] 45% [row2] 45% [end];
   }
 
   #activites li {
