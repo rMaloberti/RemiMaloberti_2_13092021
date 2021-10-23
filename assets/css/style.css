@@ -48,7 +48,7 @@ header a {
 }
 
 #logo,
-#inscription {
+#sign-in {
   width: 33%;
   margin: 7.5vw 0;
   align-self: center;
@@ -61,7 +61,7 @@ header a {
   width: 25vw;
 }
 
-#inscription {
+#sign-in {
   font-weight: 600;
   color: #0065fc;
 }
@@ -104,7 +104,7 @@ main {
 }
 
 /* Filtres */
-#filtres {
+#filters {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -113,13 +113,13 @@ main {
 }
 
 /* Text */
-#filtres h1 {
+#filters h1 {
   font-weight: 600;
   font-size: 5.8vw;
   margin: 2vw 0;
 }
 
-#filtres > p {
+#filters > p {
   font-weight: 200;
   font-size: 4.2vw;
   margin: 1vw 0;
@@ -137,7 +137,7 @@ main {
   margin: 7vw 0;
 }
 
-#localiser-btn,
+#locate-btn,
 #textfield,
 #search-btn {
   height: 100%;
@@ -148,7 +148,7 @@ main {
 }
 
 /* Bouton localiser */
-#localiser-btn {
+#locate-btn {
   width: 13%;
   height: 100.5%;
   background-color: #f2f2f2;
@@ -269,15 +269,15 @@ main {
 }
 
 /* Hébergements */
-#hebergements,
-#activites {
+#accomodations,
+#activities {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#hebergements ul,
-#activites ul {
+#accomodations ul,
+#activities ul {
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -285,12 +285,12 @@ main {
   margin-bottom: 3vw;
 }
 
-#hebergements li,
-#activites li {
+#accomodations li,
+#activities li {
   width: 100%;
 }
 
-#hebergements li > a {
+#accomodations li > a {
   display: flex;
   margin: 3vw 0;
   padding: 1.5vw;
@@ -298,46 +298,46 @@ main {
   box-shadow: 0 1vw 2vw #cecece;
 }
 
-#hebergements .thumbnail,
-#activites .thumbnail {
+#accomodations .thumbnail,
+#activities .thumbnail {
   overflow: hidden;
 }
 
-#hebergements .thumbnail img,
-#activites .thumbnail img {
+#accomodations .thumbnail img,
+#activities .thumbnail img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-#hebergements .infos,
-#activites .info {
+#accomodations .infos,
+#activities .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#hebergements h4 {
+#accomodations h4 {
   font-size: 4.75vw;
 }
 
-#hebergements p {
+#accomodations p {
   font-size: 4.25vw;
   font-weight: 200;
 }
 
-#hebergements .rating {
+#accomodations .rating {
   font-size: 3.5vw;
   color: #0065fc;
 }
 
-#hebergements .rating .empty {
+#accomodations .rating .empty {
   color: #cccccc;
 }
 
 /* Tous */
-#tous {
+#all {
   order: 1;
   width: 100%;
   display: flex;
@@ -346,29 +346,29 @@ main {
   padding: 5vw 0;
 }
 
-#tous h2 {
+#all h2 {
   width: 90%;
   font-size: 5.5vw;
   margin: 5vw 0;
 }
 
-#tous li > a {
+#all li > a {
   height: 50vw;
   flex-direction: column;
 }
 
-#tous .thumbnail {
+#all .thumbnail {
   width: 100%;
   height: 75%;
   border-radius: 4vw 4vw 0 0;
 }
 
-#tous .infos {
+#all .infos {
   height: 25%;
   padding: 3vw;
 }
 
-#tous a {
+#all a {
   align-self: flex-start;
   font-weight: 600;
   font-size: 4.5vw;
@@ -376,7 +376,7 @@ main {
 }
 
 /* Populaires */
-#populaires {
+#popular {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
@@ -385,7 +385,7 @@ main {
   padding: 5vw 0;
 }
 
-#populaires h2 {
+#popular h2 {
   width: 90%;
   font-size: 5.5vw;
   display: flex;
@@ -393,33 +393,33 @@ main {
   margin: 5vw 0;
 }
 
-#populaires li > a {
+#popular li > a {
   height: 37.5vw;
   background-color: white;
 }
 
-#populaires .thumbnail {
+#popular .thumbnail {
   width: 45%;
   height: 100%;
   border-radius: 4vw 0 0 4vw;
 }
 
-#populaires .infos {
+#popular .infos {
   width: 55%;
   padding: 3vw 6vw;
 }
 
-#populaires p {
+#popular p {
   margin: 3vw 0;
 }
 
 /* Activités */
-#activites {
+#activities {
   align-items: center;
   padding: 4vw 0;
 }
 
-#activites h2 {
+#activities h2 {
   width: 90%;
   font-size: 5.5vw;
   margin: 5vw 0;
@@ -430,7 +430,7 @@ main {
   width: 100%;
 }
 
-#activites li > a {
+#activities li > a {
   display: flex;
   margin: 3vw 0;
   border-radius: 5vw;
@@ -439,20 +439,20 @@ main {
   flex-direction: column;
 }
 
-#activites .thumbnail {
+#activities .thumbnail {
   width: 100%;
   height: 90%;
   border-radius: 4vw 4vw 0 0;
 }
 
-#activites .infos {
+#activities .infos {
   height: 10%;
   display: flex;
   align-items: center;
   padding: 5vw;
 }
 
-#activites h4 {
+#activities h4 {
   font-size: 4vw;
 }
 
@@ -496,7 +496,7 @@ footer a {
   }
 
   #logo,
-  #inscription {
+  #sign-in {
     width: 30%;
     margin: 6vw 0;
   }
@@ -521,17 +521,17 @@ footer a {
   }
 
   /* Filtres */
-  #filtres {
+  #filters {
     margin-bottom: 4.5vw;
   }
 
   /* Textes */
-  #filtres h1 {
+  #filters h1 {
     font-size: 5vw;
     margin: 1.5vw 0;
   }
 
-  #filtres > p {
+  #filters > p {
     font-size: 3.5vw;
     margin: 0.75vw 0;
   }
@@ -544,13 +544,13 @@ footer a {
   }
 
   /* Bouton localiser */
-  #localiser-btn,
+  #locate-btn,
   #search-btn {
     font-size: 4vw;
     width: 12vw;
   }
 
-  #localiser-btn {
+  #locate-btn {
     border-radius: 3vw 0 0 3vw;
   }
 
@@ -604,88 +604,88 @@ footer a {
   }
 
   /* Hébergements */
-  #hebergements ul,
-  #activites ul {
+  #accomodations ul,
+  #activities ul {
     margin-bottom: 2vw;
   }
 
-  #hebergements li > a {
+  #accomodations li > a {
     padding: 1vw;
     box-shadow: 0 0.75vw 1.5vw #cecece;
   }
 
-  #hebergements h4 {
+  #accomodations h4 {
     font-size: 4vw;
   }
 
-  #hebergements p {
+  #accomodations p {
     font-size: 3.5vw;
   }
 
-  #hebergements .rating {
+  #accomodations .rating {
     font-size: 3vw;
   }
 
   /* Tous */
-  #tous {
+  #all {
     padding: 4.25vw 0;
   }
 
-  #tous h2 {
+  #all h2 {
     font-size: 4.75vw;
     margin: 4.25vw 0;
   }
 
-  #tous li > a {
+  #all li > a {
     height: 42.5vw;
   }
 
-  #tous .infos {
+  #all .infos {
     padding: 2.5vw;
   }
 
-  #tous a {
+  #all a {
     font-size: 3.75vw;
     margin: 4.25vw;
   }
 
   /* Populaires */
-  #populaires {
+  #popular {
     padding: 4.25vw 0;
   }
 
-  #populaires h2 {
+  #popular h2 {
     font-size: 4.75vw;
     margin: 4.25vw;
   }
 
-  #populaires li > a {
+  #popular li > a {
     height: 30vw;
   }
 
-  #populaires .infos {
+  #popular .infos {
     padding: 2.5vw 5vw;
   }
 
-  #populaires p {
+  #popular p {
     margin: 2.5vw 0;
   }
 
   /* Activites */
-  #activites {
+  #activities {
     padding: 3.25vw 0;
   }
 
-  #activites h2 {
+  #activities h2 {
     font-size: 4.75vw;
     margin: 4.25vw 0;
   }
 
-  #activites li > a {
+  #activities li > a {
     height: 42.5vw;
   }
 
-  #activites .infos {
+  #activities .infos {
     padding: 4.5vw;
   }
 
@@ -723,7 +723,7 @@ footer a {
   }
 
   #logo,
-  #inscription {
+  #sign-in {
     width: 27.5%;
     margin: 4vw 0;
   }
@@ -748,17 +748,17 @@ footer a {
   }
 
   /* Filtres */
-  #filtres {
+  #filters {
     margin-bottom: 3.75vw;
   }
 
   /* Textes */
-  #filtres h1 {
+  #filters h1 {
     font-size: 4.25vw;
     margin: 1vw 0;
   }
 
-  #filtres > p {
+  #filters > p {
     font-size: 2.75vw;
     margin: 0.5vw 0;
   }
@@ -771,13 +771,13 @@ footer a {
   }
 
   /* Bouton localiser */
-  #localiser-btn,
+  #locate-btn,
   #search-btn {
     font-size: 3.5vw;
     width: 9vw;
   }
 
-  #localiser-btn {
+  #locate-btn {
     border-radius: 2.5vw 0 0 2.5vw;
   }
 
@@ -832,88 +832,88 @@ footer a {
   }
 
   /* Hébergements */
-  #hebergements ul,
-  #activites ul {
+  #accomodations ul,
+  #activities ul {
     margin-bottom: 1.75vw;
   }
 
-  #hebergements li > a {
+  #accomodations li > a {
     padding: 0.75vw;
     box-shadow: 0 0.5vw 1vw #cecece;
   }
 
-  #hebergements h4 {
+  #accomodations h4 {
     font-size: 3.5vw;
   }
 
-  #hebergements p {
+  #accomodations p {
     font-size: 3vw;
   }
 
-  #hebergements .rating {
+  #accomodations .rating {
     font-size: 2.5vw;
   }
 
   /* Tous */
-  #tous {
+  #all {
     padding: 3.5vw 0;
   }
 
-  #tous h2 {
+  #all h2 {
     font-size: 4vw;
     margin: 3.5vw 0;
   }
 
-  #tous li > a {
+  #all li > a {
     height: 35vw;
   }
 
-  #tous .infos {
+  #all .infos {
     padding: 2vw;
   }
 
-  #tous a {
+  #all a {
     font-size: 3vw;
     margin: 3.5vw;
   }
 
   /* Populaires */
-  #populaires {
+  #popular {
     padding: 3.5vw 0;
   }
 
-  #populaires h2 {
+  #popular h2 {
     font-size: 4vw;
     margin: 3.5vw;
   }
 
-  #populaires li > a {
+  #popular li > a {
     height: 25vw;
   }
 
-  #populaires .infos {
+  #popular .infos {
     padding: 2vw 4vw;
   }
 
-  #populaires p {
+  #popular p {
     margin: 2vw 0;
   }
 
   /* Activites */
-  #activites {
+  #activities {
     padding: 2.5vw 0;
   }
 
-  #activites h2 {
+  #activities h2 {
     font-size: 4vw;
     margin: 3.5vw 0;
   }
 
-  #activites li > a {
+  #activities li > a {
     height: 35vw;
   }
 
-  #activites .infos {
+  #activities .infos {
     padding: 4vw;
   }
 
@@ -957,7 +957,7 @@ footer a {
   }
 
   #logo,
-  #inscription {
+  #sign-in {
     margin: 0;
   }
 
@@ -971,7 +971,7 @@ footer a {
     width: 6.5vw;
   }
 
-  #inscription {
+  #sign-in {
     width: 7.5%;
     height: 95%;
     align-self: flex-end;
@@ -1010,19 +1010,19 @@ footer a {
   }
 
   /* Filtres */
-  #filtres {
+  #filters {
     width: 100%;
     margin-bottom: 1vw;
   }
 
   /* Text */
-  #filtres h1 {
+  #filters h1 {
     width: 100%;
     font-size: 1.5vw;
     margin: 0.25vw 0;
   }
 
-  #filtres > p {
+  #filters > p {
     width: 100%;
     font-size: 1.25vw;
     align-self: center;
@@ -1040,7 +1040,7 @@ footer a {
   }
 
   /* Bouton localiser */
-  #localiser-btn {
+  #locate-btn {
     width: 17.5%;
     border-radius: 1vw 0 0 1vw;
     font-size: 1.25vw;
@@ -1128,37 +1128,37 @@ footer a {
   }
 
   /* Hébergements */
-  #hebergements {
+  #accomodations {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5vw;
   }
 
-  #hebergements h2 {
+  #accomodations h2 {
     font-size: 1.5vw;
     margin: 1vw 0;
   }
 
-  #hebergements li > a {
+  #accomodations li > a {
     margin: 0;
     padding: 0.5vw;
     border-radius: 1.5vw;
   }
 
-  #hebergements h4 {
+  #accomodations h4 {
     font-size: 1.1vw;
   }
 
-  #hebergements p {
+  #accomodations p {
     font-size: 1vw;
   }
 
-  #hebergements .rating {
+  #accomodations .rating {
     font-size: 0.75vw;
   }
 
-  #tous,
-  #populaires {
+  #all,
+  #popular {
     background-color: #f2f2f2;
     border-radius: 1.25vw;
     padding: 0;
@@ -1166,101 +1166,101 @@ footer a {
   }
 
   /* Tous */
-  #tous {
+  #all {
     order: 0;
     width: 65%;
   }
 
-  #tous ul {
+  #all ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
   }
 
-  #tous li {
+  #all li {
     width: 32%;
     margin: 1vw 0;
   }
 
-  #tous li > a {
+  #all li > a {
     height: 12vw;
   }
 
-  #tous .thumbnail {
+  #all .thumbnail {
     height: 66%;
     border-radius: 1.25vw 1.25vw 0 0;
   }
 
-  #tous .infos {
+  #all .infos {
     height: 34%;
     padding: 0.5vw 0;
   }
 
-  #tous .rating {
+  #all .rating {
     margin-top: 0.25vw;
   }
 
-  #tous a {
+  #all a {
     font-size: 1.25vw;
     margin: 0.5vw 3vw;
   }
 
   /* Populaires */
-  #populaires {
+  #popular {
     width: 32%;
   }
 
-  #populaires h2 {
+  #popular h2 {
     width: 82.5%;
   }
 
-  #populaires ul {
+  #popular ul {
     width: 82.5%;
     justify-content: space-between;
   }
 
-  #populaires li {
+  #popular li {
     margin: 1vw 0;
   }
 
-  #populaires li > a {
+  #popular li > a {
     height: 9vw;
   }
 
-  #populaires .thumbnail {
+  #popular .thumbnail {
     width: 37.5%;
     border-radius: 1.25vw 0 0 1.25vw;
   }
 
-  #populaires .infos {
+  #popular .infos {
     width: 50%;
     padding: 1vw 0;
     margin-left: 1.5vw;
   }
 
-  #populaires h4 {
+  #popular h4 {
     font-size: 1.25vw;
   }
 
-  #populaires p {
+  #popular p {
     font-size: 1.1vw;
     margin: 0.5vw 0;
   }
 
   /* Activités */
-  #activites {
+  #activities {
     padding: 0;
     margin-bottom: 1.5vw;
   }
 
-  #activites h2 {
+  #activities h2 {
     font-size: 1.5vw;
     margin: 1vw 0;
     width: 100%;
   }
 
-  #activites > ul {
+  #activities > ul {
     width: 100%;
     height: 30vw;
     display: grid;
@@ -1285,29 +1285,29 @@ footer a {
     grid-template-rows: [start] 45% [row2] 45% [end];
   }
 
-  #activites li {
+  #activities li {
     height: 100%;
   }
 
-  #activites li > a {
+  #activities li > a {
     border-radius: 1.5vw;
     margin: 0;
     height: 100%;
     box-shadow: 0 0.5vw 2vw #cecece;
   }
 
-  #activites .thumbnail {
+  #activities .thumbnail {
     border-radius: 1.25vw 1.25vw 0 0;
     height: 0;
     flex-grow: 1;
   }
 
-  #activites .infos {
+  #activities .infos {
     padding: 0;
     height: 4vw;
   }
 
-  #activites h4 {
+  #activities h4 {
     font-size: 1.1vw;
     margin-left: 1.5vw;
   }
