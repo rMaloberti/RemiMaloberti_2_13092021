@@ -1179,7 +1179,6 @@ footer a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: space-between;
   }
 
   #all li {
