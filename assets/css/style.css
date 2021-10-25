@@ -146,6 +146,7 @@ main {
   width: 13%;
   border-radius: 3.75vw 0 0 3.75vw;
   font-size: 4.25vw;
+  background-color: #f2f2f2;
 }
 
 /* Textfield */
@@ -156,6 +157,8 @@ main {
   border: none;
   border-top: 0.3vw solid #f2f2f2;
   border-bottom: 0.3vw solid #f2f2f2;
+  border-radius: 0;
+  box-shadow: none;
   padding-left: 4vw;
 }
 
