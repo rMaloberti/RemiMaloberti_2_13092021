@@ -824,21 +824,34 @@ footer a {
     margin-bottom: 1.75vw;
   }
 
+  #accomodations ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #accomodations li {
+    width: 50%;
+    margin: 0 auto;
+  }
+
   #accomodations li > a {
     padding: 0.75vw;
     box-shadow: 0 0.5vw 1vw #cecece;
+    border-radius: 2.5vw;
+    margin: 2vw;
   }
 
   #accomodations h4 {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
   #accomodations p {
-    font-size: 3vw;
+    font-size: 1.5vw;
   }
 
   #accomodations .rating {
-    font-size: 2.5vw;
+    font-size: 1.25vw;
   }
 
   /* All */
@@ -852,11 +865,15 @@ footer a {
   }
 
   #all li > a {
-    height: 35vw;
+    height: 20vw;
+  }
+
+  #all .thumbnail {
+    border-radius: 2vw 2vw 0 0;
   }
 
   #all .infos {
-    padding: 2vw;
+    padding: 1vw;
   }
 
   #all a {
@@ -875,11 +892,15 @@ footer a {
   }
 
   #popular li > a {
-    height: 25vw;
+    height: 15vw;
+  }
+
+  #popular .thumbnail {
+    border-radius: 2vw 0 0 2vw;
   }
 
   #popular .infos {
-    padding: 2vw 4vw;
+    padding: 1vw 2vw;
   }
 
   #popular p {
@@ -896,12 +917,57 @@ footer a {
     margin: 3.5vw 0;
   }
 
+  #activities > ul {
+    height: 100vw;
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+    grid-template-columns: [start] 45% [col2] 45% [end];
+    grid-template-rows: [start] 45% [row1] 45% [end];
+    margin: 2vw 0;
+  }
+
+  #grp1 > ul,
+  #grp2 > ul {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    align-content: space-between;
+  }
+
+  #grp1 > ul {
+    grid-template-rows: [start] 52.5% [row2] 37.5% [end];
+  }
+
+  #grp2 > ul {
+    grid-template-rows: [start] 45% [row2] 45% [end];
+  }
+
+  #activities li {
+    height: 100%;
+  }
+
   #activities li > a {
-    height: 35vw;
+    border-radius: 2.5vw;
+    margin: 0;
+    height: 100%;
+    box-shadow: 0 0.5vw 2vw #cecece;
+  }
+
+  #activities .thumbnail {
+    border-radius: 2vw 2vw 0 0;
+    height: 0;
+    flex-grow: 1;
   }
 
   #activities .infos {
-    padding: 4vw;
+    padding: 0;
+    height: 6vw;
+  }
+
+  #activities h4 {
+    font-size: 1.75vw;
+    margin-left: 2vw;
   }
 
   /* Footer */
@@ -1208,6 +1274,7 @@ footer a {
 
   #popular li {
     margin: 1vw 0;
+    width: 100%;
   }
 
   #popular li > a {
@@ -1251,7 +1318,9 @@ footer a {
     height: 30vw;
     display: grid;
     justify-content: space-between;
+    align-content: stretch;
     grid-template-columns: [start] 23% [col2] 23% [col3] 23% [col4] 23% [end];
+    grid-template-rows: none;
     margin: 1vw 0;
   }
 
