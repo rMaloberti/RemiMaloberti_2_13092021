@@ -930,6 +930,232 @@ footer a {
   }
 }
 
+/* Breakpoint M */
+@media only screen and (max-width: 1099px) and (orientation: landscape) {
+  /* Header */
+  header a {
+    font-size: 2.75vw;
+  }
+
+  #logo,
+  #sign-in {
+    width: 27.5%;
+    margin: 4vw 0;
+  }
+
+  #logo img {
+    width: 15vw;
+  }
+
+  /* Nav */
+  nav li {
+    padding-bottom: 1vw;
+    border-bottom: 0.33vw solid #f2f2f2;
+  }
+
+  nav .active {
+    border-bottom: 0.33vw solid #0065fc;
+  }
+
+  /* Main */
+  main {
+    margin: 3.25vw 0;
+  }
+
+  /* Filters */
+  #filters {
+    margin-bottom: 3.75vw;
+  }
+
+  /* Texts */
+  #filters h1 {
+    font-size: 4.25vw;
+    margin: 1vw 0;
+  }
+
+  #filters > p {
+    font-size: 2.75vw;
+    margin: 0.5vw 0;
+  }
+
+  /* Search bar */
+  #search-bar {
+    height: 9vw;
+    margin: 4.5vw 0;
+  }
+
+  #locate-btn,
+  #search-btn-mobile {
+    font-size: 3.5vw;
+    width: 10%;
+  }
+
+  /* Locate button */
+  #locate-btn {
+    border-radius: 2.5vw 0 0 2.5vw;
+  }
+
+  /* Textfield */
+  #textfield {
+    width: 80%;
+    font-size: 3.5vw;
+  }
+
+  /* Search button */
+  #search-btn-mobile {
+    border-radius: 2.5vw;
+  }
+
+  /* Filter list */
+  #filter-list h3 {
+    font-size: 3vw;
+    margin: 1vw 0;
+  }
+
+  #filter-list li {
+    height: 8vw;
+    margin: 1.5vw 1.5vw 1.5vw 0;
+  }
+
+  .filter-btn {
+    width: 9vw;
+    height: 9vw;
+    font-size: 3vw;
+  }
+
+  #filter-list p {
+    font-size: 2.75vw;
+    margin: 0 3vw;
+  }
+
+  /* Results */
+  #search-results {
+    margin: 3vw 0;
+    align-items: baseline;
+  }
+
+  #info-icon {
+    width: 3.75vw;
+    height: 3.75vw;
+    font-size: 2.25vw;
+  }
+
+  #search-results p {
+    font-size: 2.75vw;
+  }
+
+  /* Accomodations and activities */
+  #accomodations ul,
+  #activities ul {
+    margin-bottom: 1.75vw;
+  }
+
+  #accomodations li > a {
+    padding: 0.75vw;
+    box-shadow: 0 0.5vw 1vw #cecece;
+  }
+
+  #accomodations h4 {
+    font-size: 3.5vw;
+  }
+
+  #accomodations p {
+    font-size: 3vw;
+  }
+
+  #accomodations .rating {
+    font-size: 2.5vw;
+  }
+
+  /* All */
+  #all {
+    padding: 3.5vw 0;
+  }
+
+  #all h2 {
+    font-size: 4vw;
+    margin: 3.5vw 0;
+  }
+
+  #all li > a {
+    height: 35vw;
+  }
+
+  #all .infos {
+    padding: 2vw;
+  }
+
+  #all a {
+    font-size: 3vw;
+    margin: 3.5vw;
+  }
+
+  /* Popular */
+  #popular {
+    padding: 3.5vw 0;
+  }
+
+  #popular h2 {
+    font-size: 4vw;
+    margin: 3.5vw;
+  }
+
+  #popular li > a {
+    height: 25vw;
+  }
+
+  #popular .infos {
+    padding: 2vw 4vw;
+  }
+
+  #popular p {
+    margin: 2vw 0;
+  }
+
+  /* Activities */
+  #activities {
+    padding: 2.5vw 0;
+  }
+
+  #activities h2 {
+    font-size: 4vw;
+    margin: 3.5vw 0;
+  }
+
+  #activities li > a {
+    height: 35vw;
+  }
+
+  #activities .infos {
+    padding: 4vw;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 3vw;
+  }
+
+  footer h3 {
+    margin: 2.5vw 0;
+  }
+
+  footer > ul {
+    margin-left: 4.5vw;
+  }
+
+  footer > ul li {
+    margin: 6.5vw 0;
+  }
+
+  footer .ul-in {
+    margin: 3.5vw 0;
+  }
+
+  footer .ul-in li {
+    margin: 2vw 0;
+  }
+}
+
 /* Breakpoint XL */
 @media only screen and (min-width: 1099px) {
   /* Header */
