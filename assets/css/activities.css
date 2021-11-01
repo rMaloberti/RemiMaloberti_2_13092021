@@ -1,0 +1,245 @@
+/* From minimum width to 574px */
+/* Activities */
+#activities {
+    align-items: center;
+    padding: 4vw 0;
+}
+
+#activities h2 {
+    width: 90%;
+    margin: 5vw 0;
+}
+
+#grp1 > ul,
+#grp2 > ul {
+    width: 100%;
+}
+
+#activities li > a {
+    display: flex;
+    margin: 3vw 0;
+    border-radius: 5vw;
+    box-shadow: 0 2vw 2.5vw #f2f2f2;
+    height: 50vw;
+    flex-direction: column;
+}
+
+#activities .thumbnail {
+    width: 100%;
+    height: 90%;
+    border-radius: 4vw 4vw 0 0;
+}
+
+#activities .infos {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+}
+
+#activities h4 {
+    font-size: 4vw;
+}
+
+/* From 575px to 766px */
+@media only screen and (min-width: 575px) {
+    /* Activities */
+    #activities {
+        padding: 4vw 0;
+    }
+
+    #activities h2 {
+        margin: 4vw 0;
+    }
+
+    #activities li > a {
+        margin: 2vw 0;
+        border-radius: 4vw;
+        box-shadow: 0 1.5vw 2vw #f2f2f2;
+        height: 40vw;
+    }
+
+    #activities .thumbnail {
+        border-radius: 3vw 3vw 0 0;
+    }
+
+    #activities .infos {
+        padding: 4vw;
+    }
+
+    #activities h4 {
+        font-size: 3.5vw;
+    }
+}
+
+/* From 767px to 1098px */
+@media only screen and (min-width: 767px) {
+    /* Activities */
+    #activities {
+        padding: 3vw 0;
+    }
+
+    #activities h2 {
+        margin: 3vw 0;
+    }
+
+    #activities > ul {
+        height: 100vw;
+        display: grid;
+        justify-content: space-around;
+        align-content: space-around;
+        grid-template-columns: [start] 47.5% [col2] 47.5% [end];
+        grid-template-rows: [start] 47.5% [row1] 47.5% [end];
+        margin: 2vw 0;
+    }
+
+    #grp1 > ul,
+    #grp2 > ul {
+        height: 100%;
+        margin: 0;
+        display: grid;
+        align-content: space-between;
+    }
+
+    #grp1 > ul {
+        grid-template-rows: [start] 55% [row2] 40% [end];
+    }
+
+    #grp2 > ul {
+        grid-template-rows: [start] 47.5% [row2] 47.5% [end];
+    }
+
+    #activities li {
+        height: 100%;
+    }
+
+    #activities li > a {
+        border-radius: 3vw;
+        margin: 0;
+        height: 100%;
+        box-shadow: 0 1vw 1.5vw #f2f2f2;
+    }
+
+    #activities .thumbnail {
+        border-radius: 2vw 2vw 0 0;
+        height: 0;
+        flex-grow: 1;
+    }
+
+    #activities .infos {
+        padding: 0;
+        height: 6vw;
+    }
+
+    #activities h4 {
+        font-size: 1.75vw;
+        margin-left: 2vw;
+    }
+}
+
+/* From 1099px to ultra-wide */
+@media only screen and (min-width: 1099px) {
+    /* Activities */
+    #activities {
+        padding: 0;
+        margin-bottom: 1.5vw;
+    }
+
+    #activities h2 {
+        font-size: 1.5vw;
+        margin: 1vw 0;
+        width: 100%;
+    }
+
+    #activities > ul {
+        width: 100%;
+        height: 30vw;
+        display: grid;
+        justify-content: space-between;
+        align-content: stretch;
+        grid-template-columns: [start] 23% [col2] 23% [col3] 23% [col4] 23% [end];
+        grid-template-rows: none;
+        margin: 1vw 0;
+    }
+
+    #grp1 > ul,
+    #grp2 > ul {
+        height: 100%;
+        margin: 0;
+        display: grid;
+        align-content: space-between;
+    }
+
+    #grp1 > ul {
+        grid-template-rows: [start] 52.5% [row2] 37.5% [end];
+    }
+
+    #grp2 > ul {
+        grid-template-rows: [start] 45% [row2] 45% [end];
+    }
+
+    #activities li {
+        height: 100%;
+    }
+
+    #activities li > a {
+        border-radius: 1.5vw;
+        margin: 0;
+        height: 100%;
+        box-shadow: 0 0.5vw 0.75vw #dadada;
+    }
+
+    #activities .thumbnail {
+        border-radius: 1.25vw 1.25vw 0 0;
+        height: 0;
+        flex-grow: 1;
+    }
+
+    #activities .infos {
+        padding: 0;
+        height: 3.5vw;
+    }
+
+    #activities h4 {
+        font-size: 1vw;
+        font-weight: 700;
+        margin-left: 1.5vw;
+    }
+}
+
+/* Ultra-wide */
+@media only screen and (min-aspect-ratio: 21 / 9) {
+    /* Activities */
+    #activities {
+        padding: 0;
+        margin-bottom: 1.5vh;
+    }
+
+    #activities h2 {
+        font-size: 1.5vh;
+        margin: 1vh 0;
+    }
+
+    #activities > ul {
+        height: 30vh;
+        margin: 1vh 0;
+    }
+
+    #activities li > a {
+        border-radius: 1.5vh;
+        box-shadow: 0 0.5vh 2vh #cecece;
+    }
+
+    #activities .thumbnail {
+        border-radius: 1.25vh 1.25vh 0 0;
+    }
+
+    #activities .infos {
+        height: 3.5vh;
+    }
+
+    #activities h4 {
+        font-size: 1vh;
+        margin-left: 1.5vh;
+    }
+}

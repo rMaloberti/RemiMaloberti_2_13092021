@@ -1,0 +1,494 @@
+/* From minimum width to 574px */
+/* Accomodations and activities */
+#accomodations,
+#activities {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#accomodations ul,
+#activities ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+#accomodations li,
+#activities li {
+    width: 100%;
+}
+
+#accomodations li > a {
+    display: flex;
+    margin: 2vw 0;
+    padding: 1.5vw;
+    border-radius: 5vw;
+}
+
+#accomodations .thumbnail,
+#activities .thumbnail {
+    overflow: hidden;
+}
+
+#accomodations .thumbnail img,
+#activities .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#accomodations .infos,
+#activities .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#accomodations p {
+    font-size: 3.75vw;
+}
+
+/* All */
+#all {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 0;
+}
+
+#all h2 {
+    width: 90%;
+    margin: 5vw 0;
+}
+
+#all li > a {
+    height: 50vw;
+    flex-direction: column;
+    box-shadow: 0 2vw 2.5vw #f2f2f2;
+}
+
+#all .thumbnail {
+    width: 100%;
+    height: 70%;
+    border-radius: 4vw 4vw 0 0;
+}
+
+#all .infos {
+    height: 30%;
+    padding: 2vw 3vw;
+}
+
+#all p {
+    margin: 1.5vw 0;
+}
+
+#all a {
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 4.5vw;
+    margin: 5vw;
+}
+
+/* Popular */
+#popular {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 0;
+}
+
+#popular h2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 0;
+}
+
+#popular li > a {
+    height: 37.5vw;
+    background-color: white;
+    box-shadow: 0 1vw 3vw #dadada;
+}
+
+#popular .thumbnail {
+    width: 45%;
+    height: 100%;
+    border-radius: 4vw 0 0 4vw;
+}
+
+#popular .infos {
+    width: 55%;
+    padding: 3vw 6vw;
+}
+
+#popular p {
+    margin: 3vw 0;
+}
+
+/* From 575px to 766px */
+@media only screen and (min-width: 575px) {
+    /* Accomodations and activities */
+    #accomodations ul,
+    #activities ul {
+        margin-bottom: 2.5vw;
+    }
+
+    #accomodations li > a {
+        margin: 1.5vw 0;
+        padding: 1.25vw;
+        border-radius: 4vw;
+    }
+
+    #accomodations p {
+        font-size: 3.25vw;
+    }
+
+    /* All */
+    #all {
+        padding: 4vw 0;
+    }
+
+    #all h2 {
+        margin: 4vw 0;
+    }
+
+    #all li > a {
+        height: 40vw;
+        box-shadow: 0 1.5vw 2vw #f2f2f2;
+    }
+
+    #all .thumbnail {
+        height: 72.5%;
+        border-radius: 3vw 3vw 0 0;
+    }
+
+    #all .infos {
+        height: 27.5%;
+        padding: 1.5vw 2vw;
+    }
+
+    #all p {
+        margin: 1vw 0;
+    }
+
+    #all a {
+        font-size: 4vw;
+        margin: 4vw;
+    }
+
+    /* Popular */
+    #popular {
+        padding: 4vw 0;
+    }
+
+    #popular h2 {
+        margin: 4vw 0;
+    }
+
+    #popular li > a {
+        height: 30vw;
+    }
+
+    #popular .thumbnail {
+        border-radius: 3vw 0 0 3vw;
+    }
+
+    #popular .infos {
+        padding: 2vw 4vw;
+    }
+
+    #popular p {
+        margin: 2vw 0;
+    }
+}
+
+/* From 767px to 1098px */
+@media only screen and (min-width: 767px) {
+    /* Accomodations and activities */
+    #accomodations ul {
+        margin-bottom: 2vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #accomodations li {
+        width: 32%;
+    }
+
+    #accomodations li > a {
+        margin: 1vw 0;
+        padding: 0.75vw;
+        border-radius: 3vw;
+    }
+
+    #accomodations p {
+        font-size: 1.75vw;
+    }
+
+    /* All */
+    #all {
+        padding: 3vw 0;
+    }
+
+    #all h2 {
+        margin: 3vw 0;
+    }
+
+    #all li > a {
+        height: 25vw;
+        box-shadow: 0 1vw 1.5vw #f2f2f2;
+    }
+
+    #all .thumbnail {
+        height: 70%;
+        border-radius: 2vw 2vw 0 0;
+    }
+
+    #all .infos {
+        height: 30%;
+        padding: 1vw 1.5vw;
+    }
+
+    #all p {
+        margin: 0.5vw 0;
+    }
+
+    #all a {
+        font-size: 2.5vw;
+        margin: 3vw;
+    }
+
+    /* Popular */
+    #popular {
+        padding: 3vw 0;
+    }
+
+    #popular h2 {
+        margin: 3vw 0;
+    }
+
+    #popular li > a {
+        height: 20vw;
+    }
+
+    #popular .thumbnail {
+        width: 40%;
+        border-radius: 2vw 0 0 2vw;
+    }
+
+    #popular .infos {
+        width: 60%;
+        padding: 1.5vw;
+    }
+
+    #popular p {
+        margin: 1.5vw 0;
+    }
+}
+
+/* From 1099px to ultra-wide */
+@media only screen and (min-width: 1099px) {
+    /* Accomodations */
+    #accomodations {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+    }
+
+    #accomodations h2 {
+        margin: 1vw 0;
+    }
+
+    #accomodations li > a {
+        margin: 0;
+        padding: 0.5vw;
+        border-radius: 1.25vw;
+    }
+
+    #accomodations p {
+        font-size: 0.9vw;
+    }
+
+    #all,
+    #popular {
+        background-color: #f2f2f2;
+        border-radius: 1.25vw;
+        padding: 0;
+        padding-top: 2vw;
+    }
+
+    /* All */
+    #all {
+        order: 0;
+        width: 65%;
+    }
+
+    #all ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #all li {
+        width: 32%;
+        margin: 1vw 0;
+    }
+
+    #all li > a {
+        background-color: white;
+        height: 12vw;
+        box-shadow: 0 0.5vw 0.75vw #dadada;
+    }
+
+    #all .thumbnail {
+        height: 66%;
+        border-radius: 1.05vw 1.05vw 0 0;
+    }
+
+    #all .infos {
+        height: 34%;
+        padding: 0.5vw 0;
+    }
+
+    #all .rating {
+        margin-top: 0.25vw;
+    }
+
+    #all a {
+        font-size: 1.25vw;
+        margin: 0.5vw 3vw;
+    }
+
+    /* Popular */
+    #popular {
+        width: 32%;
+    }
+
+    #popular h2 {
+        width: 82.5%;
+    }
+
+    #popular ul {
+        width: 82.5%;
+        justify-content: space-between;
+    }
+
+    #popular li {
+        margin: 1vw 0;
+        width: 100%;
+    }
+
+    #popular li > a {
+        height: 9vw;
+        box-shadow: 0 0.5vw 0.75vw #dadada;
+    }
+
+    #popular .thumbnail {
+        width: 45%;
+        border-radius: 1.05vw 0 0 1.05vw;
+    }
+
+    #popular .infos {
+        width: 55%;
+        padding: 1vw 0;
+        margin-left: 1.5vw;
+    }
+
+    #popular p {
+        font-size: 0.9vw;
+        margin: 0.5vw 0;
+    }
+}
+
+/* Ultra-wide */
+@media only screen and (min-aspect-ratio: 21 / 9) {
+    /* Accomodations */
+    #accomodations {
+        margin-bottom: 3vh;
+    }
+
+    #accomodations h2 {
+        margin: 1vh 0;
+    }
+
+    #accomodations li > a {
+        padding: 0.5vh;
+        border-radius: 1.25vh;
+    }
+
+    #accomodations p {
+        font-size: 0.9vh;
+    }
+
+    #all,
+    #popular {
+        border-radius: 1.25vh;
+        padding-top: 2vh;
+    }
+
+    /* All */
+    #all {
+        width: 65%;
+    }
+
+    #all li {
+        margin: 1vh 0;
+    }
+
+    #all li > a {
+        height: 12vh;
+    }
+
+    #all .thumbnail {
+        border-radius: 1.05vh 1.05vh 0 0;
+    }
+
+    #all .infos {
+        padding: 1vh 0;
+    }
+
+    #all p {
+        margin: 1vh 0;
+    }
+
+    #all .rating {
+        margin-top: 0.25vh;
+    }
+
+    #all a {
+        font-size: 1.25vh;
+        margin: 0.5vh 3vh;
+    }
+
+    /* Popular */
+    #popular li {
+        margin: 1vh 0;
+    }
+
+    #popular li > a {
+        height: 9vh;
+    }
+
+    #popular .thumbnail {
+        border-radius: 1.05vh 0 0 1.05vh;
+    }
+
+    #popular .infos {
+        padding: 1vh 0;
+        margin-left: 1.5vh;
+    }
+
+    #popular p {
+        font-size: 0.9vh;
+        margin: 0.5vh 0;
+    }
+}
