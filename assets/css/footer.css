@@ -1,0 +1,150 @@
+/* From minimum width to 574px */
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    font-size: 4vw;
+}
+
+footer h3 {
+    font-weight: 700;
+    margin: 4vw 0;
+}
+
+footer > ul {
+    margin-left: 7.5vw;
+}
+
+footer > ul li {
+    margin: 12.5vw 0;
+}
+
+footer .ul-in {
+    margin: 5vw 0;
+}
+
+footer .ul-in li {
+    margin: 4vw 0;
+}
+
+footer a {
+    font-weight: 400;
+}
+
+/* From 575px to 766px */
+@media only screen and (min-width: 575px) {
+    /* Footer */
+    footer {
+        font-size: 3.5vw;
+    }
+
+    footer h3 {
+        margin: 3vw 0;
+    }
+
+    footer > ul {
+        margin-left: 6.5vw;
+    }
+
+    footer > ul li {
+        margin: 10vw 0;
+    }
+
+    footer .ul-in {
+        margin: 4vw 0;
+    }
+
+    footer .ul-in li {
+        margin: 3vw 0;
+    }
+}
+
+/* From 767px to 1098px */
+@media only screen and (min-width: 767px) {
+    /* Footer */
+    footer {
+        font-size: 2.5vw;
+    }
+
+    footer h3 {
+        margin: 2vw 0;
+    }
+
+    footer > ul {
+        margin-left: 5vw;
+    }
+
+    footer > ul li {
+        margin: 7.5vw 0;
+    }
+
+    footer .ul-in {
+        margin: 3vw 0;
+    }
+
+    footer .ul-in li {
+        margin: 2vw 0;
+    }
+}
+
+/* From 1099px to ultra-wide */
+@media only screen and (min-width: 1099px) {
+    /* Footer */
+    footer {
+        font-size: 1.15vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer > ul {
+        margin: 1vw 0 2.5vw 0;
+        width: 90%;
+        display: flex;
+    }
+
+    footer > ul li {
+        width: 33.3%;
+        margin: 0;
+    }
+
+    footer h3 {
+        margin: 2vw 0;
+    }
+
+    footer .ul-in {
+        margin: 1vw 0;
+    }
+
+    footer .ul-in li {
+        margin: 1vw 0;
+        width: 100%;
+    }
+}
+
+/* Ultra-wide */
+@media only screen and (min-aspect-ratio: 21 / 9) {
+    /* Footer */
+    footer {
+        font-size: 1.15vh;
+    }
+
+    footer > ul {
+        margin: 1vh 0 2.5vh 0;
+    }
+
+    footer > ul li {
+        width: 33.3%;
+    }
+
+    footer h3 {
+        margin: 2vh 0;
+    }
+
+    footer .ul-in {
+        margin: 1vh 0;
+    }
+
+    footer .ul-in li {
+        margin: 1vh 0;
+    }
+}
